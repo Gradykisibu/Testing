@@ -1,0 +1,61 @@
+.homeMainContainer{
+    width: 100%;
+    height: 100%;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* styles.css */
+/* .customAudioPlayer {
+    width: 100%;
+    background: #777777;
+  }
+  
+  /* Hide the download button */
+  /* .customAudioPlayer::-webkit-media-controls-enclosure {
+    display: none !important;
+  } */
+  
+  /* .customAudioPlayer::-webkit-media-controls-panel {
+    width: 100% !important;
+  } */
+
+  /* styles.css */
+.customAudioPlayerContainer {
+    width: 100%;
+    max-width: 450px; /* Adjust the maximum width as needed */
+    margin-top: 20px;
+    background: #333;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .customAudioPlayer {
+    width: 100%;
+    background: #333;
+    color: white;
+    border: none;
+    outline: none;
+  }
+  
+  .customAudioPlayer::-webkit-media-controls {
+    display: none !important;
+  }
+  
+  .customAudioPlayer::-webkit-media-controls-enclosure {
+    display: none !important;
+  }
+  
+  .customAudioPlayer::-webkit-media-controls-panel {
+    width: 100% !important;
+  }
+  
+  .customAudioPlayer::after {
+    content: '';
+    display: block;
+    height: 10px;
+    background: #555;
+  }
+  
